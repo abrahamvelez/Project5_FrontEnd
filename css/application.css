@@ -1,0 +1,194 @@
+/*Base CSS for the body tag*/
+body {
+  background-color: #f7f5f7;
+  font-family: 'Lato', sans-serif; }
+
+/*Footer section*/
+.bottom {
+  display: flex;
+  padding-top: 15px;
+  border-top: 2px solid #878787;
+  justify-content: space-between; }
+  @media (min-width: 768px) {
+    .bottom {
+      display: flex;
+      padding: 20px 0 50px;
+      border-top: 2px solid grey;
+      justify-content: flex-end; } }
+
+/*Contact title*/
+.contact {
+  font-size: 1em;
+  line-height: 1.1em; }
+  @media (min-width: 768px) {
+    .contact {
+      max-width: 75%;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 15px 5%; } }
+
+@media (min-width: 768px) {
+  #name {
+    margin-right: auto;
+    padding-left: 10px; } }
+
+/*hide footer links*/
+#port, #contact, #home {
+  display: none; }
+  @media (min-width: 768px) {
+    #port, #contact, #home {
+      display: flex;
+      padding: 0 15px; } }
+
+@media (min-width: 768px) {
+  #top-link {
+    display: none; } }
+
+/*Just affects the text under profile pic - maybe we can clean it up as well*/
+@media (min-width: 768px) {
+  header {
+    padding-bottom: 30%; } }
+@media (min-width: 1024px) {
+  header {
+    padding-bottom: 25%; } }
+
+@media (min-width: 768px) {
+  .menu ul {
+    margin: 0 10px;
+    padding: 0; } }
+@media (min-width: 768px) {
+  .menu li {
+    display: inline-block; } }
+@media (min-width: 768px) {
+  .menu a {
+    padding: 30px 10px;
+    background-color: inherit; } }
+
+@media (min-width: 768px) {
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 35px; } }
+@media (min-width: 1024px) {
+  h1 {
+    margin-right: auto;
+    margin-left: 10%; } }
+
+@media (min-width: 1024px) {
+  h1, .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-right: 10%;
+    font-weight: 700; } }
+
+/*Navigation Menu (Home, portfolio & Contact)*/
+li a {
+  font-size: 1em;
+  font-weight: bold;
+  color: #878787;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  margin: 2px 10px;
+  padding: 5px 0px; }
+  @media (min-width: 768px) {
+    li a {
+      background-color: inherit;
+      max-width: 769px;
+      margin: 0 auto; } }
+
+/*Profile picture*/
+img {
+  width: 100%;
+  height: 100; }
+  @media (min-width: 768px) {
+    img {
+      max-width: 100%; } }
+
+/*This looks like redundant - review, maybe we can clean it up*/
+li {
+  list-style: none; }
+
+/*profile picture edits*/
+.profile {
+  margin: 5% 20%;
+  max-width: 60%; }
+  @media (min-width: 768px) {
+    .profile {
+      float: right;
+      margin: 0 5% 10px 0; } }
+
+.profile-description p {
+  font-size: 1.3em;
+  padding: 2px 20px; }
+  @media (min-width: 1024px) {
+    .profile-description p {
+      text-align: left;
+      font-size: 1.25em; } }
+  @media breakTablet {
+    .profile-description p {
+      float: left;
+      max-width: 35%;
+      text-align: left;
+      margin-left: 10%; } }
+
+/*Portfolio title in main-content*/
+h3 {
+  padding: 35px 0px;
+  margin-bottom: -10px; }
+
+/*Whole ul section*/
+.portfolio section {
+  max-width: 100%;
+  width: 320px;
+  padding-bottom: 25px; }
+  @media (min-width: 768px) {
+    .portfolio section {
+      width: 769px;
+      margin: 0 auto;
+      padding: 20 5% 0; } }
+  @media (min-width: 1024px) {
+    .portfolio section {
+      height: 100px; } }
+
+@media (min-width: 768px) {
+  ul.main-content {
+    background-color: white; } }
+
+@media (min-width: 768px) {
+  .main-content {
+    margin: 0;
+    padding: 0;
+    list-style: none; } }
+
+/*all content inside main-content*/
+.main-content p {
+  max-width: 80%;
+  padding: 0px 20px;
+  margin-top: 0px; }
+@media (min-width: 768px) {
+  .main-content li {
+    float: left;
+    width: 46%;
+    margin: 2%; } }
+@media (min-width: 1024px) {
+  .main-content li {
+    width: 29.333333333%; } }
+.main-content h4 {
+  margin-bottom: 8px; }
+
+ul {
+  padding-left: 0px; }
+
+/*Center text*/
+.contact, header, li, h3 {
+  text-align: center; }
+
+header, li a, img, .profile, .portfolio section {
+  display: block; }
+
+li a, .profile, .portfolio section, .portfolio {
+  background-color: white; }
+
+/*# sourceMappingURL=application.css.map */

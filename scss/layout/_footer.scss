@@ -1,0 +1,52 @@
+//////////* FOOTER *//////////////////
+
+/*Footer section*/
+.bottom {
+  display: flex;
+  padding-top: 15px;
+  border-top: 2px solid $footer-color;
+  justify-content: space-between;
+  @media #{$breakTablet}{
+    display: flex;
+    padding: 20px 0 50px;
+    border-top: 2px solid grey;
+    justify-content: flex-end;
+  }
+}
+
+/*Contact title*/
+.contact{
+  @include text(1em, 1.1em);
+  @extend %centered;
+  @media #{$breakTablet}{
+    max-width:75%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px 5%;
+  }
+}
+
+#name {
+  @media #{$breakTablet}{
+    margin-right:auto;
+    padding-left: 10px;
+  }
+}
+/*hide footer links*/
+#port, #contact, #home {
+  display:none;
+  @media #{$breakTablet}{
+    display:flex;
+    padding: 0 15px;
+  }
+}
+
+
+#top-link {
+  @media #{$breakTablet}{
+  display: none;
+}
+
+
+
+}

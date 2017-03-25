@@ -1,0 +1,16 @@
+//Descriptive color variable
+
+$white        : #fff;
+$grey         : #878787;
+$slightGrey   : rgb(247, 245, 247);
+
+//Functional color variables
+
+$color-primary    : $slightGrey;
+$footer-color     : $grey;
+
+
+//Breaking Points Media Query
+
+$breakTablet: '(min-width: 768px)';
+$breakDesktop: '(min-width: 1024px)';

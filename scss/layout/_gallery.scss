@@ -1,0 +1,63 @@
+
+/*Whole ul section*/
+.portfolio section{
+  max-width: 100%;
+  @extend %color;
+  width: 320px;
+  @extend %block;
+  padding-bottom: 25px;
+  @media #{$breakTablet}{
+    width: 769px;
+    margin: 0 auto;
+    padding: 20 5% 0;
+  }
+  @media #{$breakDesktop}{
+      height: 100px;
+  }
+}
+
+ul.main-content{
+  @media #{$breakTablet}{
+    background-color: white;
+  }
+}
+
+.main-content{
+  @media #{$breakTablet}{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+}
+/*all content inside main-content*/
+.main-content{
+
+  p{
+    max-width: 80%;
+    padding: 0px 20px;
+    margin-top: 0px;
+  }
+  li{
+    @media #{$breakTablet}{
+      float: left;
+      width: 46%;
+      margin: 2%;
+    }
+    @media #{$breakDesktop}{
+          width: 29.333333333%;
+    }
+  }
+  h4 {
+    margin-bottom: 8px;
+  }
+}
+
+
+ul{
+  padding-left: 0px;
+}
+
+
+.portfolio {
+  @extend %color;
+}
